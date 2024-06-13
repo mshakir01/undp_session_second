@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:undp_session_two/sessionThree.dart';
-import 'package:undp_session_two/session_five.dart';
-import 'package:undp_session_two/session_four.dart';
-import 'package:undp_session_two/session_one.dart';
-import 'package:undp_session_two/session_six.dart';
-import 'package:undp_session_two/session_two.dart';
+import 'package:undp_session_two/ui/screen%20/session_six.dart';
+
 
 void main() {
   runApp(const MyApp());
