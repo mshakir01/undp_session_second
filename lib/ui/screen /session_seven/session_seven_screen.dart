@@ -48,16 +48,41 @@ class _SessionSevenScreenState extends State<SessionSevenScreen> {
             }),
 
             Wrap(
+              spacing: 20,
+              runSpacing: 22,
               children: [
-                Container(width: 100,color: Colors.red,height: 100,),
-                Container(width: 100,color: Colors.yellow,height: 100,),
+                Container(width: 150,color: Colors.red,height: 100,),
+                Container(width: 200,color: Colors.yellow,height: 100,),
                 Container(width: 100,color: Colors.orange,height: 100,),
-                const SizedBox(height: 20,),
-                Container(width: 100,color: Colors.red,height: 100,),
-                Container(width: 100,color: Colors.yellow,height: 100,),
-                Container(width: 100,color: Colors.orange,height: 100,),
+                Container(width: 100,color: Colors.green,height: 100,),
+                Container(width: 100,color: Colors.pinkAccent,height: 100,),
+                Container(width: 100,color: Colors.green,height: 100,),
               ],
-            )
+            ),
+
+            const SizedBox(height: 20,),
+            Row(
+
+              children: [
+                Container(
+                  color: Colors.pinkAccent,
+                  width: 100,
+                  height: 100,
+                ),
+
+                Container(
+                  color: Colors.orange,
+                  width: 100,
+                  height: 100,
+                ),
+                const Spacer(),
+                Container(
+                  color: Colors.yellow,
+                  width: 100,
+                  height: 100,
+                ),
+              ],
+            ),
           ],
         ),
       ),
