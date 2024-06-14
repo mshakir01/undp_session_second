@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:undp_session_two/ui/screen%20/session_seven/session_seven_screen.dart';
 import 'package:undp_session_two/ui/screen%20/session_six.dart';
 
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SessionSixScreen(),
+      home: const SessionSevenScreen(),
     );
   }
 }
