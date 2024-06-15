@@ -3,14 +3,14 @@ import 'package:undp_session_two/core/constant%20/const_text_style.dart';
 
 import '../../../../core/constant /const_color.dart';
 
-class NavHomeScreen extends StatefulWidget {
-  const NavHomeScreen({super.key});
+class NavChatsScreen extends StatefulWidget {
+  const NavChatsScreen({super.key});
 
   @override
-  State<NavHomeScreen> createState() => _NavHomeScreenState();
+  State<NavChatsScreen> createState() => _NavChatsScreenState();
 }
 
-class _NavHomeScreenState extends State<NavHomeScreen> {
+class _NavChatsScreenState extends State<NavChatsScreen> {
   
   List<Map<String,dynamic>> chatData=[
     {

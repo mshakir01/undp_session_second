@@ -1,24 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:undp_session_two/core/constant%20/const_text_style.dart';
-
-class NavStatusScreen extends StatefulWidget {
-  const NavStatusScreen({super.key});
+class NavCommunitiesScreen extends StatefulWidget {
+  const NavCommunitiesScreen({super.key});
 
   @override
-  State<NavStatusScreen> createState() => _NavStatusScreenState();
+  State<NavCommunitiesScreen> createState() => _NavCommunitiesScreenState();
 }
 
-class _NavStatusScreenState extends State<NavStatusScreen> {
+class _NavCommunitiesScreenState extends State<NavCommunitiesScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return    Scaffold(
       body: SizedBox(
         width: double.infinity,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text("Chat Screen",style: mediumStyle,)
+            Text("Add Screen ",style: mediumStyle,)
           ],
         ),
       ),

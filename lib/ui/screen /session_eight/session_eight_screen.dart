@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:undp_session_two/core/constant%20/const_text_style.dart';
-import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_add_screen.dart';
+import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_Communities_screen.dart';
 import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_chat_screen.dart';
-import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_home_screen.dart';
-import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_search_screen.dart';
+import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_status_screen.dart';
+import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_Calls_screen.dart';
 import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_settings_screen.dart';
 
 class SessionEightScreen extends StatefulWidget {
@@ -19,10 +19,10 @@ class _SessionEightScreenState extends State<SessionEightScreen> {
 
 
     /// List of Screens
-    const NavHomeScreen(),
-    const NavChatScreen(),
-    const NavAddScreen(),
-    const NavSearchScreen(),
+    const NavChatsScreen(),
+    const NavStatusScreen(),
+    const NavCommunitiesScreen(),
+    const NavCallsScreen(),
     // const NavSettingsScreen(),
 
     /// List of Container
