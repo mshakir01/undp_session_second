@@ -6,8 +6,6 @@ import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/n
 import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_status_screen.dart';
 import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_Calls_screen.dart';
 import 'package:undp_session_two/ui/screen%20/session_eight/bottom_nav_screens/nav_settings_screen.dart';
-import 'package:undp_session_two/ui/screen%20/session_one.dart';
-
 
 class BottomFromPubDev extends StatefulWidget {
   const BottomFromPubDev({Key? key}) : super(key: key);
