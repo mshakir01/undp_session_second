@@ -8,14 +8,19 @@ class SessionNineScreen extends StatefulWidget {
   State<SessionNineScreen> createState() => _SessionNineScreenState();
 }
 
+List<String> options=['Option 1','Option 2','Option 3'];
+
 class _SessionNineScreenState extends State<SessionNineScreen> {
+
+
+
+  String oldValue=options[0];
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
-      initialIndex: 0,
+      initialIndex: 1,
       child: Scaffold(
-        
           appBar: AppBar(
             bottom: TabBar(
                 labelColor: Colors.green,
@@ -40,6 +45,7 @@ class _SessionNineScreenState extends State<SessionNineScreen> {
           ),
           body: TabBarView(
             children: [
+              ///First Tab Container
               Container(
                 color: Colors.green,
                 child: ListView.builder(
@@ -58,13 +64,39 @@ class _SessionNineScreenState extends State<SessionNineScreen> {
                   },
                 ),
               ),
+
+              /// Second Tab Container
               Container(
                   color: Colors.yellow,
-                  child: Center(
-                      child: Text(
-                    "Chat ",
-                    style: mediumStyle.copyWith(fontSize: 44),
-                  ))),
+                  child: Column(
+                    children: [
+                      Center(
+                          child: Text(
+                        "Chat Container ",
+                        style: mediumStyle.copyWith(fontSize: 44),
+                      )),
+
+
+                      DropdownButton(
+                        value: oldValue,
+                          items: options.map<DropdownMenuItem<String>>((String value){
+                        return DropdownMenuItem(
+                          value: value,
+                            child:Text("$value",style: mediumStyle,)
+                        );
+                      }).toList(),
+                          onChanged: (newValue){
+
+                        setState(() {
+                          oldValue =newValue!;
+                        });
+
+
+                      })
+                    ],
+                  )),
+
+              ///Third Tab Container
               Container(
                   color: Colors.orange,
                   child: Center(
