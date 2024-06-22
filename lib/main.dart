@@ -5,6 +5,7 @@ import 'package:undp_session_two/ui/screen%20/session_nine/session_nine_screen.d
 import 'package:undp_session_two/ui/screen%20/session_nine/stack_example.dart';
 import 'package:undp_session_two/ui/screen%20/session_seven/session_seven_screen.dart';
 import 'package:undp_session_two/ui/screen%20/session_six.dart';
+import 'package:undp_session_two/ui/screen%20/session_ten/session_ten.dart';
 
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const StackExample(),
+      home: const SessionTen(),
     );
   }
 }
